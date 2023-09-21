@@ -1,0 +1,42 @@
+[
+  {
+    "Source":"jeff@aws.com",
+    "Template":"SteamKeyTemplate",
+    "ConfigurationSetName":"app-config-set",
+    "Destinations":[
+      {
+        "Destination":{
+          "ToAddresses":[
+            "example2@gmail.com"
+          ]
+        },
+        "ReplacementTemplateData":"{ \"name\":\"Louis\", \"activationkey\": \"9Z9EY\" }"
+      },
+      {
+        "Destination":{
+          "ToAddresses":[
+            "example3@gmail.com"
+          ]
+        },
+        "ReplacementTemplateData":"{ \"name\":\"Andrew\", \"activationkey\": \"5D47L\" }"
+      },
+      {
+        "Destination":{
+          "ToAddresses":[
+            "example4@gmail.com"
+          ]
+        },
+        "ReplacementTemplateData":"{ \"name\":\"Timothy\", \"activationkey\": \"AWRAZ\" }"
+      },
+      {
+        "Destination":{
+          "ToAddresses":[
+            "example5@gmail.com"
+          ]
+        },
+        "ReplacementTemplateData":"{ \"name\":\"April \", \"activationkey\": \"593RG\" }"
+      }
+    ],
+    "DefaultTemplateData":"{ \"name\":\"Streamer\", \"activationkey\":\"unknown\" }"
+  }
+]
